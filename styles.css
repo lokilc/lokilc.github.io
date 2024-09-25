@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #1c1c1c;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #e91e63;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #cfcfcf;
+}
+
+.phones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.phone {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+}
+
+.phone img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.phone h2 {
+    font-size: 1.5rem;
+    color: #e91e63;
+    margin: 10px 0;
+}
+
+.phone ul {
+    list-style: none;
+    padding: 0;
+}
+
+.phone ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #1c1c1c;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #cfcfcf;
+}
